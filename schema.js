@@ -19,7 +19,6 @@ const moviesSchema = new Schema({
     vote_count: Number
 }, {timestamps: false});
 
-
 const MoviesModel = mongoose.model('movies', moviesSchema);
 
 module.exports = MoviesModel;
